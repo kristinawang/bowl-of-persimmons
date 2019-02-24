@@ -1,0 +1,307 @@
+@media only screen and (max-width: 600px) {
+    
+    body {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    
+    nav li {
+        margin: 14.50px;
+    }
+    
+    .home-icon {
+        display: none;
+    }
+    
+    #page0 .content p {
+        font-size: 50px;
+    }
+    
+    div#page1{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    
+    div#page1 .story_text {
+        font-size: 25px;
+    }
+    
+    div#page1 .quote {
+        font-size: 30px;
+    }
+    
+    div#page2 .content {
+        margin: 25px;
+        font-family: "Affogato-Medium";
+        font-size: 20px;
+    }
+
+    div#page2 .left, div#page2 .right {
+        text-align: center;
+        margin: 25px;
+    }
+    
+     #page3 .content .pic img {
+        width: 100%;
+        float: none;
+    }
+    
+    #page3 .content .bio p {
+        font-size: 25px;
+        display: 100%;
+        margin-left: -158px;
+        text-align: center;
+        display: inline-block;
+        float: none;
+    }
+    
+    .email {
+        text-align: center;
+    }
+    
+    footer {
+        margin-bottom: 5%;
+    }
+}
+
+@font-face {
+    font-family: 'Affogato-Black';
+    src: url('../typeface/Affogato/webfont/Affogato-Black.eot');
+    src: url('../typeface/Affogato/webfont/Affogato-Black.eot?#iefix') format('embedded-opentype'),
+    	 url('../typeface/Affogato/webfont/Affogato-Black.woff') format('woff'),
+         url('../typeface/Affogato/webfont/Affogato-Black.woff2') format('woff2'),
+         url('../typeface/Affogato/webfont/Affogato-Black.ttf')  format('truetype'),
+         url('../typeface/Affogato/webfont/Affogato-Black.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Affogato-Bold';
+    src: url('../typeface/Affogato/webfont/Affogato-Bold.eot');
+    src: url('../typeface/Affogato/webfont/Affogato-Bold.eot?#iefix') format('embedded-opentype'),
+    	 url('../typeface/Affogato/webfont/Affogato-Bold.woff') format('woff'),
+         url('../typeface/Affogato/webfont/Affogato-Bold.woff2') format('woff2'),
+         url('../typeface/Affogato/webfont/Affogato-Bold.ttf')  format('truetype'),
+         url('../typeface/Affogato/webfont/Affogato-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Affogato-Medium';
+    src: url('../typeface/Affogato/webfont/Affogato-Medium.eot');
+    src: url('../typeface/Affogato/webfont/Affogato-Medium.eot?#iefix') format('embedded-opentype'),
+    	 url('../typeface/Affogato/webfont/Affogato-Medium.woff') format('woff'),
+         url('../typeface/Affogato/webfont/Affogato-Medium.woff2') format('woff2'),
+         url('../typeface/Affogato/webfont/Affogato-Medium.ttf')  format('truetype'),
+         url('../typeface/Affogato/webfont/Affogato-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Affogato-Regular';
+    src: url('../typeface/Affogato/webfont/Affogato-Regular.eot');
+    src: url('../typeface/Affogato/webfont/Affogato-Regular.eot?#iefix') format('embedded-opentype'),
+    	 url('../typeface/Affogato/webfont/Affogato-Regular.woff') format('woff'),
+         url('../typeface/Affogato/webfont/Affogato-Regular.woff2') format('woff2'),
+         url('../typeface/Affogato/webfont/Affogato-Regular.ttf')  format('truetype'),
+         url('../typeface/Affogato/webfont/Affogato-Regular.svg') format('svg');
+}
+@font-face {
+    font-family: 'Affogato-Light';
+    src: url('../typeface/Affogato/webfont/Affogato-Light.eot');
+    src: url('../typeface/Affogato/webfont/Affogato-Light.eot?#iefix') format('embedded-opentype'),
+    	 url('../typeface/Affogato/webfont/Affogato-Light.woff') format('woff'),
+         url('../typeface/Affogato/webfont/Affogato-Light.woff2') format('woff2'),
+         url('../typeface/Affogato/webfont/Affogato-Light.ttf')  format('truetype'),
+         url('../typeface/Affogato/webfont/Affogato-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Chivo-Black";
+    src: url("../typeface/Chivo/Chivo-Black.otf");
+}
+
+@font-face {
+    font-family: "Chivo-Bold";
+    src: url("../typeface/Chivo/Chivo-Bold.otf");
+}
+
+@font-face {
+    font-family: "Chivo-Regular";
+    src: url("../typeface/Chivo/Chivo-Regular.otf");
+}
+
+@font-face {
+    font-family: "Chivo-Light";
+    src: url("../typeface/Chivo/Chivo-Light.otf");
+}
+
+body {
+    font-family: "Chivo-Light";
+    font-size: 25px;
+}
+
+.home-icon {
+    width: 120px;
+    height: 115px;
+    position: fixed;
+    margin-right: 80%;
+}
+
+a.svg:after {
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+}
+
+.menu {
+    padding-bottom: 15px;
+    position: fixed;
+    right: 0;
+}
+
+ul {
+    list-style: none;
+    padding-top: 5px;
+    padding-right: 50px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 25px;
+    font-family: "Affogato-Bold"
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Affogato-Bold";
+    font-size: 22px;
+}
+
+.menu ul li a:active {
+    border-bottom: 3px solid #000;
+    color: #000;
+    padding-bottom: 2px;
+}
+
+.content {
+    padding-top: 105px;
+}
+
+.bowl {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 95px;
+}
+
+.home_content {
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Chivo-Black", "Helvetica", sans-serif;
+    font-size: 89px;
+}
+
+#page1 .content p {
+    margin-top: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.story_text {
+    font-family: "Chivo-Light", "Helvetica", sans-serif;
+    font-size: 30px;
+    line-height: 1.75em;
+}
+
+.quote {
+    font-family: "Chivo-Regular", "Helvetica", sans-serif;
+    font-size: 33px;
+    line-height: 1.7em;
+}
+
+.author {
+    float: right;
+}
+
+#page2 .content{
+    margin: 75px 125px 75px 125px;
+    font-family: "Affogato-medium", "Helvetica", sans-serif;
+    font-size: 20px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+#page3 {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.me {
+    float: left;
+    padding-top: 2%;
+    position: relative;
+    display: inline-block;
+    width: 45%;
+    max-width: 375px;
+    margin: 0;
+}
+
+.bio {
+    display: inline-block;
+    width: 50%;
+    float: right;
+    font-family: "Chivo-Light", "Helvetica", sans-serif;
+    padding-top: 2%;
+    margin-right: 5px;
+    font-size: 28px;
+}
+
+.email{
+    text-decoration: none;
+    color: #000;
+    font-family: "Chivo-Regular", "Helvetica", sans-serif;
+    border-bottom: 2px solid #000;
+    color: #000;
+    padding-bottom: 2px;
+    line-height: 75px;
+}
+
+.email:visited {
+    color: #000;
+}
+
+hr { 
+    width: 25%;
+    display: block;
+    margin-top:5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.1px;
+}
+
+footer {
+    clear: both;
+    padding-top: 75px;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 5px;
+    font-family: "Affogato-Regular";
+}

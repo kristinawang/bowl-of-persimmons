@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <title>Bowl of Persimmons</title>
+    <link rel="icon" href="img/persimmon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+    <script>
+    $('.smooth').on('click', function() {
+        $.smoothScroll({
+            scrollElement: $('body'),
+            scrollTarget: '#' + this.id
+        });
+
+        return false;
+    });
+    </script>
+    	
+</head>
+
+<body>
+        <nav class="home-icon">
+            <ul>
+                <li><a href="#home" class="svg"><object type="image/svg+xml" data="img/persimmon.svg" class="logo"></object></a></li>
+            </ul>
+        </nav>
+        
+        <nav class="menu">
+             <ul>
+                 <li><a href="#story">story</a></li>
+                 <li><a href="#littlejoys">little joys</a></li>
+                 <li><a href="#hello">hello</a></li>
+             </ul>
+        </nav>
+
+    <div id="page0">
+      <a id="home" class="smooth"></a>
+        <div class="content">
+            <object class="bowl" type="image/svg+xml" data="img/bowl.svg"></object>
+            <p class="home_content">Bowl of Persimmons</p>
+        </div>
+    </div>
+    <div id="page1">
+      <a id="story" class="smooth"></a>
+        <div class="content">
+            <p class="quote">
+            &ldquo;I think you travel to search and you come back home to find yourself there.&rdquo; <br>
+            <span class="author">&mdash; Chimamanda Ngozi Adichie</span>
+            
+            <br><br>
+                
+           <p class="story_text">
+            &ldquo;Bowl of Persimmons&rdquo; is a mini-illustration series influenced by the people, places, and the minutiae of everyday life that have shaped my notion of home. 
+            </p>
+        </div>
+    </div>
+    <div id="page2">
+      <a id="littlejoys" class="smooth"></a>
+        <div class="content">
+            <div class="left">
+                <object class="leftPic" type="image/svg+xml" data="img/coffee.svg"></object>
+                <div>
+                <p>Home is having a daily routine.</p>
+                </div>
+            </div>
+            <div class="right">
+                <object class="leftPic" type="image/svg+xml" data="img/grandma.svg"></object>
+                <div class="caption">
+                    <p>Home is visiting the farmers market with grandma every week.</p>
+                </div>
+            </div>
+            <div class="left">
+                <object class="leftPic" type="image/svg+xml" data="img/cat.svg"></object>
+                <p>Home is snuggles with my cat.</p>
+            </div>
+            <div class="right">
+                <object class="leftPic" type="image/svg+xml" data="img/bed.svg"></object>
+                <p>Home is where my own bed is.</p>
+            </div>
+            <div class="left">
+                <object class="leftPic" type="image/svg+xml" data="img/family.svg"></object>
+                <p>Home is being around people who make you laugh one moment but drive you crazy the next...</p>
+            </div>
+            <div class="right">
+                <object class="leftPic" type="image/svg+xml" data="img/banana.svg"></object>
+                <p>Home is the smell of freshly baked banana bread.</p>
+            </div>
+            <div class="left">
+                <object class="leftPic" type="image/svg+xml" data="img/bowl.svg"></object>
+                <p>Home is picking persimmons from mom's persimmon tree.</p>
+            </div>
+            <div class="right">
+                <object class="leftPic" type="image/svg+xml" data="img/tea.svg"></object>
+                <p>Home is a place that evokes a sigh of relief as I walk in the door.</p>
+            </div>
+            <div class="left">
+                <object class="leftPic" type="image/svg+xml" data="img/wine.svg"></object>
+                <p>Home is where I binge watch Downton Abbey without anyone judging me.</p>
+            </div>
+            <div class="right">
+                <object class="leftPic" type="image/svg+xml" data="img/beets.svg"></object>
+                <p>Home is starting my own urban garden in my tiny city apartment.</p>
+            </div>
+            <div class="left">
+                <object class="leftPic" type="image/svg+xml" data="img/milk.svg"></object>
+                <p>Home is a magical place called "the fridge".</p>
+            </div>
+            <div class="right">
+                <object class="leftPic" type="image/svg+xml" data="img/paris.svg"></object>
+                <p>Home is a place where I can see myself living in one day.</p>
+            </div>
+        </div>
+    </div>
+    
+   
+    <hr>
+
+    <div id="page3">
+      <a id="hello" class="smooth"></a>
+        <div class="content">
+            <div class="pic">
+                <img class="me" src="img/me.jpg">
+            </div>
+            <div class="bio">
+                <p>Kristina Shutian Wang is a daydreamer, chronic doodler, freelance designer, and full-time coffee fiend.
+
+                <br><br>
+                For design inquiries and ideas (as well as jokes and pasta recipes)&mdash;<br> <a class="email" href="mailto:kristinashutian@gmail.com">kristinashutian@gmail.com</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    
+<footer>
+     ALL WORKS &#169; KRISTINA SHUTIAN WANG, 2017 
+</footer>
+    
+</body>
+
+    
+</html>
